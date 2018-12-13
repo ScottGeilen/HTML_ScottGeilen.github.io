@@ -1,0 +1,279 @@
+* {
+	margin: 0;
+    padding: 0;
+    color: white;
+    font-family: verdana;
+    font-weight: lighter;
+	line-height: 150%;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+	font-size: 1.5vw;
+}
+a {
+	text-decoration: none;
+}
+.background {
+	background-image: url(https://s22.postimg.cc/5koc6n01t/picofme01-03.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	scroll-behavior: smooth;
+}
+ul {
+	display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #d1d1d1;
+    color: blue;
+	transition: 1s;
+}
+
+.active {
+    background-color: #c4bd6f;
+    color: black;
+}
+.content {
+	display: flex;
+	padding: 0px 40px 0px 40px;
+	border-radius: 25px;
+	margin: 0px 150px;
+	flex-direction: column;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 50px;
+}
+.content-last {
+	display: flex;
+	padding: 0px 40px 0px 40px;
+	border-radius: 25px;
+	margin: 0px 150px;
+	flex-direction: column;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.content h1 {
+	font-size: 4.5vw;
+	font-weight: bold;
+}
+
+
+
+/*Large screens*/
+@media screen and (min-width: 600px) {
+	.home {
+		height: 500px;
+		width: 100%;
+		display: table;
+		align-items: center;
+		vertical-align: middle;
+		font-size: 2.5vw;
+	}
+	.home h1 {
+	    display: table-cell;
+	    vertical-align: middle;
+	    font-size: 6vw;
+	    font-weight: bold;
+	}
+	.home h3 {
+	    display: table-cell;
+	    vertical-align: middle;
+	}
+
+	.style1 {
+		float: left;
+		width: 100%;
+	}
+	.style1 h1 {
+		font-size: 4.5vw;
+		font-weight: bolder;
+	}
+	.style1 h2 {
+		display: flex;
+		margin-top: 30px;
+		font-size: 3vw;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+	.style1 h3 {
+		display: flex;
+		font-style: italic;
+		font-size: 1.5vw;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+	.style1 p {
+		display: flex;
+		float: left;
+		width: 100%;
+		text-align: left;
+		margin: 5px 0;
+	}
+	.last {
+		display: flex;
+		float: left;
+		width: 100%;
+		text-align: left;
+		padding-bottom: 100px;
+	}
+	.elevator {
+		margin: 50px;
+		padding: 5px;
+	}
+	.elevator p {
+		line-height: 150%;
+	}
+	.contact {
+		margin: 50px;
+		padding: 5px;
+	}
+
+	.left {
+	    display: table-cell;
+	    vertical-align: middle;
+	    float: left;
+	}
+	.right {
+	    display: table-cell;
+	    vertical-align: middle;
+	    float: right;
+	}
+	.centered-text {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		width: 100%;
+		text-align: left;
+		padding-bottom: 50px;
+	}
+
+}
+
+
+/*Small screens*/
+@media screen and (max-width: 600px) {
+	ul {
+		display: flex;
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0px;
+	    overflow: hidden;
+	    background-color: #424242;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    justify-content: space-between;
+	    font-size: 4vw;
+	}
+
+	.home {
+		height: 300px;
+		width: 100%;
+		display: block;
+  		align-items: center;
+  		justify-content: center;
+		font-size: 4vw;
+	}
+	.home h1 {
+		display: block;
+		align-items: center;
+		vertical-align: middle;
+		justify-content: center;
+	    width: 100%;
+		height: 100px;
+	}
+	.home h3 {
+		display: block;
+		align-items: center;
+		vertical-align: middle;
+		justify-content: center;
+	    width: 100%;
+		height: 100px;
+	}
+
+	.style1 {
+		float: left;
+		font-size: 3.5vw;
+		width: 100%;
+	}
+	.style1 h1 {
+		font-size: 5vw;
+		font-weight: bolder;
+	}
+	.style1 h2 {
+		display: flex;
+		margin-top: 30px;
+		font-size: 3vw;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+	.style1 h3 {
+		display: flex;
+		font-style: italic;
+		font-size: 1.5vw;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+	.style1 p {
+		display: flex;
+		float: left;
+		width: 100%;
+		text-align: left;
+		margin: 5px 0;
+	}
+	.last {
+		display: flex;
+		float: left;
+		width: 100%;
+		text-align: left;
+		padding-bottom: 50px;
+	}
+	.style2 h1 {
+		font-size: 5vw;
+	}
+	.style2 p {
+		display: flex;
+		text-align: center;
+		width: 100%;
+		font-size: 3.5vw;
+		text-align: left;
+		margin: 5px 0;
+	}
+	.centered-text {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		width: 100%;
+		text-align: left;
+		padding-bottom: 50px;
+	}
+	.left {
+	    display: table-cell;
+	    vertical-align: middle;
+	    float: left;
+	}
+}
