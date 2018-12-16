@@ -85,7 +85,7 @@ li a:hover:not(.active) {
 	}
 
 	/*main header*/
-	.super-home {
+	.home {
 		padding-top: 100px;
 		height: 300px;
 		width: 100%;
@@ -93,7 +93,7 @@ li a:hover:not(.active) {
   		align-items: center;
   		justify-content: center;
 	}
-	.super-home h1 {
+	.home h1 {
 		display: block;
 		align-items: center;
 		vertical-align: middle;
@@ -102,34 +102,13 @@ li a:hover:not(.active) {
 		font-size: 3.5vw;
 		float: right;
 	}
-	.super-home h3 {
+	.home h3 {
 		display: block;
 		align-items: center;
 		vertical-align: middle;
-		font-size: 2.5vw;
+		font-size: 3.5vw;
 	    width: 100%;
 		height: 100px;
-	}
-
-	.home {
-		height: 500px;
-		width: 100%;
-		display: table;
-		align-items: center;
-		vertical-align: middle;
-		font-size: 2.5vw;
-	}
-	.home h1 {
-	    display: table-cell;
-	    vertical-align: middle;
-	    font-size: 3vw;
-	    font-weight: bold;
-	}
-	.home h3 {
-	    display: table-cell;
-	    vertical-align: middle;
-	    font-size: 3vw;
-	    font-weight: bold;
 	}
 
 	.style1 {
@@ -219,9 +198,10 @@ li a:hover:not(.active) {
 	.background {
 		background-image: url(https://s22.postimg.cc/5koc6n01t/picofme01-03.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center fixed;
 		text-align: center;
 		scroll-behavior: smooth;
+		background-size: cover;
 	}
 
 	.content {
@@ -251,32 +231,6 @@ li a:hover:not(.active) {
 	}
 
 	/*main header*/
-	.super-home {
-		height: 300px;
-		width: 100%;
-		display: flex;
-  		align-items: center;
-  		justify-content: center;
-	}
-	.super-home h1 {
-		display: flex;
-		align-items: center;
-		vertical-align: middle;
-	    width: 100%;
-		height: 100px;
-		font-size: 5vw;
-		float: right;
-	}
-	.super-home h3 {
-		display: flex;
-		align-items: center;
-		vertical-align: middle;
-		font-size: 5vw;
-	    width: 100%;
-		height: 100px;
-	}
-
-/*	header for each section*/
 	.home {
 		height: 300px;
 		width: 100%;
@@ -288,6 +242,7 @@ li a:hover:not(.active) {
 		display: block;
 		align-items: center;
 		vertical-align: middle;
+		padding-top: 100px;
 	    width: 100%;
 		height: 100px;
 		font-size: 6vw;
