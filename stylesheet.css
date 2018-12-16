@@ -14,8 +14,26 @@ html, body {
 a {
 	text-decoration: none;
 }
-.background {
-	background-image: url(https://s22.postimg.cc/5koc6n01t/picofme01-03.jpg);
+.background01 {
+	background-image: url(https://i.ibb.co/VwnYbZv/picofme01-02.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	scroll-behavior: smooth;
+}
+.background02 {
+	background-image: url(https://i.ibb.co/bvjwbfZ/picofme02-02.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	scroll-behavior: smooth;
+}
+.background03 {
+	background-image: url(https://i.ibb.co/DD4pK4h/picofme12-02.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -171,7 +189,6 @@ li a:hover:not(.active) {
 		justify-content: center;
 		width: 100%;
 		text-align: left;
-		padding-bottom: 50px;
 	}
 	.top:hover {
 		text-decoration: underline;
@@ -195,14 +212,6 @@ li a:hover:not(.active) {
 	    justify-content: space-between;
 	    font-size: 4vw;
 	}
-	.background {
-		background-image: url(https://i.ibb.co/fQ6tNqg/picofme01-02.jpg);
-		background-repeat: repeat;
-		background-size: contain;
-		text-align: center;
-		scroll-behavior: smooth;
-	}
-
 	.content {
 		display: flex;
 		padding: 0px 40px 0px 40px;
@@ -296,7 +305,6 @@ li a:hover:not(.active) {
 		float: left;
 		width: 100%;
 		text-align: left;
-		padding-bottom: 50px;
 	}
 	.style2 h1 {
 		font-size: 5vw;
