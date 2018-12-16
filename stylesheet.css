@@ -197,8 +197,8 @@ li a:hover:not(.active) {
 	}
 	.background {
 		background-image: url(https://s22.postimg.cc/5koc6n01t/picofme01-03.jpg);
-		background-repeat: repeat-y;
-		background-size: contain;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
 		text-align: center;
 		scroll-behavior: smooth;
 		background-position: fixed;
